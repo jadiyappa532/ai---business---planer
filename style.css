@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 15px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+.result-card {
+    margin-top: 20px;
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#history {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#history li {
+    background: white;
+    color: black;
+    margin: 5px auto;
+    padding: 8px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.clear-btn {
+    margin-top: 10px;
+    background: red;
+}
